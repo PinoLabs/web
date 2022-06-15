@@ -1,15 +1,16 @@
 
 /* body o algo asi */
 .contenedor-web{
-    width: auto;
+  width: 100%;
+  
 }
 /* menu */
 .contenedor-menu{
-    box-shadow: 10px 10px 10px 10px black;
-    background-color: transparent;
+  box-shadow: 10px 10px 10px 10px black;
+  background-color: transparent;
 	display: flex;
 	width: 100%;
-    margin-top: 4px;
+  margin-top: 4px;
 	justify-content: center;
 }
 .nav-tab{
@@ -30,13 +31,14 @@
 }
 /* productos */
 .contenedor-productos{
-    display: flex;
+  width: auto;
+  display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: static;
 	flex-grow: 3;
-    overflow: auto;
+  overflow: auto;
 }
 /* contactos */ 
 .contenedor-contacto{
@@ -45,5 +47,5 @@
 
 /* login */ 
 .contenedor-login{
-    margin-top: 100px;
+  margin-top: 100px;
 }
