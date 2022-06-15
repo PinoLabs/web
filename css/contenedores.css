@@ -1,0 +1,49 @@
+
+/* body o algo asi */
+.contenedor-web{
+    width: auto;
+}
+/* menu */
+.contenedor-menu{
+    box-shadow: 10px 10px 10px 10px black;
+    background-color: transparent;
+	display: flex;
+	width: 100%;
+    margin-top: 4px;
+	justify-content: center;
+}
+.nav-tab{
+    margin: 15px;
+    right: 15px;
+    text-decoration: none;
+    color: var(--color-letraMenu);
+    font-size: 25px;
+    text-shadow: 2px 2px red ;
+}
+.nav-tab:hover {
+    color: var(--color-hoverMenu);
+  }
+  /* inicio */
+.contenedor-inicio{
+    padding:350px;
+    text-align: center;
+}
+/* productos */
+.contenedor-productos{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: static;
+	flex-grow: 3;
+    overflow: auto;
+}
+/* contactos */ 
+.contenedor-contacto{
+    margin-top: 15%;
+}
+
+/* login */ 
+.contenedor-login{
+    margin-top: 100px;
+}

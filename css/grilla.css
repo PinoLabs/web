@@ -1,0 +1,106 @@
+.grilla-web{
+	display: grid;
+	grid-template-rows: 4;
+	grid-template-columns: 5;
+	grid-gap: 10px;
+	justify-content: center;
+  overflow: auto;
+    /* la resolucion de las imagenes debe ser de 240x240px*/
+	}
+      .banner{
+        margin: auto;
+        width: 1000px;
+        height: 400px;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 1; 
+        grid-column-end: 5; 
+        grid-row-start: 1; 
+        grid-row-end: 1;
+        background-color: aliceblue;
+      }
+      .separador-titulo{
+          border-radius: 25px;
+          text-align: center;
+          grid-column-start: 1; 
+          grid-column-end: 5; 
+          grid-row-start: 2; 
+          grid-row-end: 2;
+          font-size: 40px;
+          margin-bottom: 50px;
+          color:yellowgreen;
+        }
+      .uno {
+        background-color: red;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 1; 
+        grid-column-end: 1; 
+        grid-row-start: 3; 
+        grid-row-end: 3;
+          }
+    
+      
+      .dos {
+        background-color: blue;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 2; 
+        grid-column-end: 2; 
+        grid-row-start: 3; 
+        grid-row-end: 3;
+          }
+      
+      .tres {
+        background-color: yellow;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 3; 
+        grid-column-end: 3; 
+        grid-row-start: 3; 
+        grid-row-end: 3;}
+      
+      .cuatro {
+        background-color: pink;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 4; 
+        grid-column-end: 4;
+        }
+
+       .cinco{
+        background-color: pink;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 1; 
+        grid-column-end: 1;
+        grid-row-start: 4 ;
+        grid-row-end:4 ;
+       }
+       .seis{
+        background-color: pink;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 2; 
+        grid-column-end: 2;
+        grid-row-start: 4 ;
+        grid-row-end:4 ;
+       }
+       .siete{
+        background-color: pink;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 3; 
+        grid-column-end: 3;
+        grid-row-start: 4 ;
+        grid-row-end:4 ;
+       }
+       .ocho{
+        background-color: pink;
+        border-radius: 25px;
+        text-align: center;
+        grid-column-start: 4; 
+        grid-column-end: 4;
+        grid-row-start: 4 ;
+        grid-row-end:4 ;
+       }

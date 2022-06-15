@@ -1,0 +1,21 @@
+@import url("colores.css");
+@import url("contenedores.css");
+@import url("grilla.css");
+@import url("formularios.css");
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+	background-image: var(--imagen-fondo);
+}
+
+.fot{
+	text-align: center;
+	margin-top: 150px;
+	color: whitesmoke;
+	text-shadow: 1px 1px black;
+	margin-bottom: 50px;
+}
+

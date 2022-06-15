@@ -1,0 +1,5 @@
+:root{
+  --imagen-fondo:url("/img/fondo.jpg");
+  --color-letraMenu:pink;
+  --color-hoverMenu:red;
+}
