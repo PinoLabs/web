@@ -18,9 +18,9 @@ h1{
 .arriba{
     grid-column: 1/4;
     grid-row: 1/1;
-    width: 400px;
+    width: 600px;
     background: #24303c;
-    padding: 100px;
+    padding: 120px;
     margin: auto;
     margin-top: 90px;
     border-radius: 44px;
@@ -34,9 +34,11 @@ h1{
     grid-row: 2/2;
     border-radius: 15px;
     display: flex;
-    width: 600px;
+    width: 800px;
     text-align:center;
     margin: auto;
+    padding: 20px;
+    background-color: gainsboro;
     }
 .nav-tab{
 margin: auto;
@@ -53,7 +55,25 @@ a{
     font-size: 20px;
     color: brown;
 }
-
+#sobre-mi{
+    display: none;
+}
+#educacion{
+    display: none;
+}
+#proyectos{
+    display: none;
+}
+#experiencia{
+    display: none;
+    margin: auto;
+}
+#experiencia ul{
+    list-style:  lower-roman;
+}
+#contacto{
+    display: none;
+}
 @media screen and (max-width: 600px) {
     .arriba{
         padding: 25%;
