@@ -1,5 +1,4 @@
 body{
-    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -7,9 +6,13 @@ body{
 h1{
     text-align: center;
 }
-
+p{
+  text-align: center;
+}
 /* layout */
 .grid {
+  min-width: 400px;
+  width: auto;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px 20px;
     width: 100%;
@@ -56,26 +59,35 @@ a{
     color: brown;
 }
 #sobre-mi{
+  margin:50px;
+  text-align: center;
     display: none;
+    grid-column: 1/4;
+    grid-row: 3/3;
 }
 #educacion{
     display: none;
+    grid-column: 1/4;
+    grid-row: 3/3;
 }
 #proyectos{
     display: none;
+    grid-column: 1/4;
+    grid-row: 3/3;
 }
 #experiencia{
     display: none;
-    margin: auto;
+    grid-column: 1/4;
+    grid-row: 3/3;
+    
 }
 #experiencia ul{
     list-style:  lower-roman;
+    text-align: center;
 }
+#experiencia li{}
 #contacto{
     display: none;
 }
 @media screen and (max-width: 600px) {
-    .arriba{
-        padding: 25%;
-    }
   }
