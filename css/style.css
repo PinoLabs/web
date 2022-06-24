@@ -2,9 +2,13 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color:wheat;
 }
 
 h1{
+    text-align: center;
+}
+H2{
     text-align: center;
 }
 
@@ -29,6 +33,11 @@ h1{
     text-align: center;
     color: darksalmon;
 }
+.navMin{
+    margin: 5px;
+    float: right;
+    display: none;
+}
 .nav{
     grid-column: 1/4;
     grid-row: 2/2;
@@ -38,7 +47,6 @@ h1{
     text-align:center;
     margin: auto;
     padding: 20px;
-    background-color: gainsboro;
     }
 .nav-tab{
 margin: auto;
@@ -47,7 +55,13 @@ margin: auto;
     color: burlywood;
     text-shadow: 2px 2px violet;
 }
-
+.nav-upper{
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 55px;
+    text-align: center;
+}
 a{
     text-decoration: none;
     font-size: medium;
@@ -55,27 +69,141 @@ a{
     font-size: 20px;
     color: brown;
 }
+
+#nombre{
+    padding-top: 15%;
+    margin: auto;
+    display:none;
+}
+
+#nombre1{
+    padding: 50px;
+    display: block;
+}
+
 #sobre-mi{
+    width: 70rem;
+    margin: auto;
+    margin-top: 50px;
+    grid-column: 1/4;
+    grid-row: 3/2;
     display: none;
+    background-color: red;
+    border-radius: 25px;
+    box-shadow: 7px 13px 37px #000;
 }
+
+#sobre-mi p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: monospace;
+    font-size: 30PX;
+}
+#sobre-mi  h1{
+    text-align: center;
+    font-family: monospace;
+    color: black;    
+    font-size: 50px;
+    padding-top: 50px;
+}
+
 #educacion{
+    grid-column: 1/4;
+    grid-row: 3/3;
     display: none;
+    margin: auto;
+    margin-top: 50px;
+    width: 70rem; 
+    padding:50px;  
+    background-color: red;
+    border-radius: 25px;
+    box-shadow: 7px 13px 37px #000;
 }
+#educacion h1{
+    text-align: center;
+    font-family: monospace;
+    color: black;    
+    font-size: 50px;
+    padding-top: 50px;
+}
+#educacion li{
+    margin-top: 115px;
+    color: whitesmoke;
+    list-style-type: none;
+}
+
 #proyectos{
+    grid-column: 1/4;
+    grid-row: 3/3;
     display: none;
+    margin: auto;
+    width: 70rem; 
+    padding:50px;  
+
 }
+
+#proyectos li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 7px 13px 37px #000
+
+}
+
 #experiencia{
+    grid-column: 2/3;
+    grid-row: 3/2;
     display: none;
     margin: auto;
 }
+
 #experiencia ul{
-    list-style:  lower-roman;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
 }
+
 #contacto{
     display: none;
 }
+
 @media screen and (max-width: 600px) {
     .arriba{
         padding: 25%;
+        width: 30%;
+        padding: 100px;
     }
-  }
+    
+    .nav{
+        display: none;
+    }
+    .men{
+        display: block;
+    }
+    .navMin{
+        float: right;
+        display: block;    
+    }
+    #nav-upper{
+        display: none;
+    }
+    
+        #nombre{
+            display: block;
+        }
+
+        #nombre1{
+            display: none;
+        }
+
+        #sobre-mi p{
+        font-size:15px ;
+    }
+    .espacio{
+        padding:90px;
+    }
+}

@@ -33,3 +33,6 @@ function MostrarC(){
     document.getElementById('experiencia').style.display = 'none';
     document.getElementById('contacto').style.display = 'block';
 }
+function most(){
+    document.getElementById("nav-upper").style.display='block';
+}

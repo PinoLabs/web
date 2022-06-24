@@ -5,13 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/b6cd2b590e.js" crossorigin="anonymous"></script>
     <title>Portafolio</title>
     <script src="/js/main.js"></script>
 </head>
 <body>
     
+    <section class="navMin">
+        <button onclick="most()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+        <div class="men">
+            <section class="nav-upper" id="nav-upper">
+                <div class="nav-tab"><a href="#sobre-mi" onclick="MostrarSM()">Sobre Mi</a></div>
+                <div class="nav-tab"><a href="#educacion" onclick="MostrarE()">Educacion</a></div>
+                <div class="nav-tab"><a href="#proyectos" onclick="MostrarP()">Proyectos</a></div>
+                <div class="nav-tab"><a href="#experiencia" onclick="MostrarEx()">Experiencia</a></div>
+                <div class="nav-tab"><a href="#contacto" onclick="MostrarC()">Contacto</a></div>
+            </section>
+        </div>
+       
+    </section>
+    
+<div class="espacio"></div>
 <section class="grid">
+<section id="nombre">
+        <h1>Cristian Pino Gaete</h1>
+    </section>
+
+<br>
+ 
     <section class="arriba">Imagen</section><br>
+    <br>
+    
+    <section id="nombre1">
+        <h1>Cristian Pino Gaete</h1>
+    </section>
+    <br>
     <section class="nav">
         <div class="nav-tab"><a href="#sobre-mi" onclick="MostrarSM()">Sobre Mi</a></div>
         <div class="nav-tab"><a href="#educacion" onclick="MostrarE()">Educacion</a></div>
@@ -19,7 +49,8 @@
         <div class="nav-tab"><a href="#experiencia" onclick="MostrarEx()">Experiencia</a></div>
         <div class="nav-tab"><a href="#contacto" onclick="MostrarC()">Contacto</a></div>
     </section>
-    <section class="sobre-mi" id="sobre-mi">
+
+    <section id="sobre-mi">
         <h1>Sobre Mi</h1>
         <br>
         <p> Mi nombre es Cristian Pino, soy estudiante de desarrollo web Full Stack Java, tengo 24 años, 
@@ -32,7 +63,6 @@
         <p>
         </p>
     </section>
-    <br>
     <br>
     <section id="educacion">
         <h1>Educacion</h1>
@@ -52,16 +82,11 @@
         </ul>
     </section>
     <section id="proyectos">
-        <h1>Proyectos</h1>
-         <div class="1">
-            <h3>ChanchoStore.cl</h3>
-        </div>
-        <div class="2">
-            <h3>Login Web</h3>
-        </div>
-        <div class="2">
-            <h3>Otros</h3>
-        </div>
+    <ul>
+        <li><a class="1" href="https://pinolabs.github.io/">ChanchoStore.cl</a></li>
+        <li><a class="1" href="#">Login-Web</a></li>
+        <li><a class="1" href="#">Otros</a></li>
+    </ul>
     </section>
     <section id="experiencia">
         <h1>Experiencia</h1>
